@@ -9,6 +9,9 @@
     "preview": "vite preview",
     "test": "node verify_mvc.mjs"
   },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0"
+  },
   "devDependencies": {
     "vite": "^5.2.0"
   }
