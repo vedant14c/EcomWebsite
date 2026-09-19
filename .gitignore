@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json.bak
+
+# Build Outputs & Bundler Caches
+dist/
+dist-ssr/
+.vite/
+.parcel-cache/
+
+# SQLite Databases & WAL/Journal Files
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+server/*.db
+server/*.db-shm
+server/*.db-wal
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# IDE & Editor Directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files & Gemini IDE artifacts
+.gemini/
+*.tmp
+*.temp
